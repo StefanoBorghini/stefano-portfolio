@@ -66,7 +66,7 @@ export default function Home() {
         <div className="aspect-[16/10] rounded-2xl bg-neutral-200"></div>
 
         <h3 className="mt-6 text-2xl font-semibold">
-          Scaffè Moto
+          Alo's Café
         </h3>
 
         <p className="mt-3 text-neutral-600">
@@ -76,9 +76,19 @@ export default function Home() {
       </div>
     </div>
     
+<div className="mx-auto max-w-6xl">
+    
+
     <div className="grid gap-8 md:grid-cols-2">
       <div className="overflow-hidden rounded-[32px] bg-white p-6 shadow-sm">
-        <div className="aspect-[16/10] rounded-2xl bg-neutral-200"></div>
+       <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
+  <Image
+    src="/projects/portovenere.jpg"
+    alt="Portovenere"
+    fill
+    className="object-cover transition duration-700 hover:scale-105"
+  />
+</div>
 
         <h3 className="mt-6 text-2xl font-semibold">
           Portovenere.com
@@ -94,7 +104,7 @@ export default function Home() {
         <div className="aspect-[16/10] rounded-2xl bg-neutral-200"></div>
 
         <h3 className="mt-6 text-2xl font-semibold">
-          Scaffè Moto
+          Alo's Café
         </h3>
 
         <p className="mt-3 text-neutral-600">
@@ -103,6 +113,17 @@ export default function Home() {
         </p>
       </div>
     </div>
+    
+
+
+
+   
+   
+  </div>
+
+
+   
+   
   </div>
 </section>
     </main>
