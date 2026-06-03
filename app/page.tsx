@@ -72,15 +72,15 @@ export default function Home() {
 
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
       <Image
-        src="/projects/alos.jpg"
-        alt="Alo's Café"
+        src="/projects/experiences.jpg"
+        alt="Portovenere Experiences"
         fill
         className="object-cover transition duration-700 group-hover:scale-105"
       />
     </div>
 
     <h3 className="mt-6 text-2xl font-semibold">
-      Alo's Café
+      Portovenere Experiences
     </h3>
 
     <p className="mt-3 text-neutral-600">
