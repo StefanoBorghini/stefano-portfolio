@@ -67,7 +67,7 @@ export default function Home() {
     </p>
   </div>
 
-  {/* ALO'S CAFE */}
+  {/* PORTOVENERE EXPERIENCES */}
   <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
 
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
@@ -94,6 +94,32 @@ export default function Home() {
 
   </div>
 </section>
+
+<section className="px-6 py-24">
+  <div className="mx-auto max-w-4xl">
+    
+    <p className="mb-3 text-sm uppercase tracking-[0.3em] text-neutral-500">
+      Approach
+    </p>
+
+    <h2 className="text-4xl font-semibold md:text-5xl">
+      Modern web experiences focused on usability,
+      performance and clean design.
+    </h2>
+
+    <p className="mt-8 text-lg leading-relaxed text-neutral-600">
+      Over the years I collaborated on tourism platforms,
+      e-commerce websites and digital projects for local
+      businesses, organizations and hospitality brands.
+      My approach combines practical problem solving,
+      modern frontend development and user-focused design.
+    </p>
+  </div>
+</section>
+
+<footer className="px-6 pb-12 pt-24 text-center text-sm text-neutral-500">
+  Prepared exclusively for Sintonia — 2026
+</footer>
 
     </main>
   );
