@@ -24,6 +24,10 @@ export const metadata: Metadata = {
   title: "Stefano Borghini — Selected Works for Sintonia",
   description:
     "Web Developer & Digital Experiences focused on hospitality, tourism and modern frontend experiences.",
+
+    icons: {
+  icon: "/favicon.png",
+},
 };
 
 export default function RootLayout({
