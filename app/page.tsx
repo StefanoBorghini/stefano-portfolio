@@ -57,7 +57,10 @@ export default function Home() {
         </div>
       </motion.section>
 
-     <section id="projects" className="px-6 py-24">
+     <motion.section
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1 }}  id="projects" className="px-6 py-24">
   <div className="mx-auto max-w-6xl">
 
 
@@ -197,9 +200,12 @@ on tourism, private experiences and luxury stays.
 
 
   </div>
-</section>
+</motion.section>
 
-<section className="px-6 py-24">
+<motion.section
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1 }}  className="px-6 py-24">
   <div className="mx-auto max-w-4xl">
     
     <p className="mb-3 text-sm uppercase tracking-[0.3em] text-neutral-500">
@@ -219,7 +225,7 @@ on tourism, private experiences and luxury stays.
       modern frontend development and user-focused design.
     </p>
   </div>
-</section>
+</motion.section>
 
 <footer className="px-6 pb-12 pt-24 text-center text-sm text-neutral-500">
   Prepared exclusively for Sintonia — 2026
