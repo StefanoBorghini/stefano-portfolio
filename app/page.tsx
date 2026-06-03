@@ -47,15 +47,7 @@ export default function LoginPage() {
     handleLogin();
   }}
 >
-  <div className="mt-10">
-    <input
-      type="password"
-      placeholder="Enter password"
-      value={password}
-      onChange={(e) => setPassword(e.target.value)}
-      className="w-full cursor-text rounded-full border border-neutral-300 bg-white px-6 py-4 text-center text-black placeholder:text-neutral-400 outline-none transition focus:border-black"
-    />
-  </div>
+
 
   <button
     type="submit"
