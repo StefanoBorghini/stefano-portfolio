@@ -42,7 +42,7 @@ export default function Home() {
     </div>
 
     <div className="grid gap-8 md:grid-cols-2">
-      <div className="overflow-hidden rounded-[32px] bg-white p-6 shadow-sm">
+      <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
        <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
   <Image
     src="/projects/portovenere.jpg"
@@ -62,7 +62,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="overflow-hidden rounded-[32px] bg-white p-6 shadow-sm">
+      <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
         <div className="aspect-[16/10] rounded-2xl bg-neutral-200"></div>
 
         <h3 className="mt-6 text-2xl font-semibold">
@@ -82,7 +82,7 @@ export default function Home() {
     </div>
 
     <div className="grid gap-8 md:grid-cols-2">
-      <div className="overflow-hidden rounded-[32px] bg-white p-6 shadow-sm">
+      <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
        <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
   <Image
     src="/projects/portovenere.jpg"
@@ -102,7 +102,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="overflow-hidden rounded-[32px] bg-white p-6 shadow-sm">
+      <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
         <div className="aspect-[16/10] rounded-2xl bg-neutral-200"></div>
 
         <h3 className="mt-6 text-2xl font-semibold">
