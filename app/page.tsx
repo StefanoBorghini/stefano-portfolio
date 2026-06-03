@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 
 import { motion } from "framer-motion";
@@ -39,17 +41,17 @@ export default function Home() {
 </div>
 
         <div className="mt-10 flex gap-4">
-          <a href="#projects"> <button className="rounded-full bg-black px-6 py-3 text-white transition hover:opacity-80">
+          <a className="rounded-full bg-black px-6 py-3 text-white transition hover:opacity-80" href="#projects"> 
           View Projects
-          </button>
+          
 </a> 
-             <a
+             <a className="rounded-full border border-black px-6 py-3 transition hover:bg-black hover:text-white"
   href="mailto:tuaemail@gmail.com"
->  <button className="rounded-full border border-black px-6 py-3 transition hover:bg-black hover:text-white">
+> 
       
   Contact
 
-          </button>
+       
 
           </a>
         </div>
