@@ -29,110 +29,72 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="px-6 py-24">
+     <section className="px-6 py-24">
   <div className="mx-auto max-w-6xl">
-    <div className="mb-16">
-      <p className="mb-3 text-sm uppercase tracking-[0.3em] text-neutral-500">
-        Selected Works
-      </p>
 
-      <h2 className="text-4xl font-semibold md:text-5xl">
-        Projects & Digital Experiences
-      </h2>
-    </div>
 
-    <div className="grid gap-8 md:grid-cols-2">
-      <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
-       <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
-  <Image
-    src="/projects/portovenere.jpg"
-    alt="Portovenere"
-    fill
-    className="object-cover transition duration-700 hover:scale-105"
-  />
+<div className="mb-16">
+  <p className="mb-3 text-sm uppercase tracking-[0.3em] text-neutral-500">
+    Selected Works
+  </p>
+
+  <h2 className="text-4xl font-semibold md:text-5xl">
+    Projects & Digital Experiences
+  </h2>
 </div>
 
-        <h3 className="mt-6 text-2xl font-semibold">
-          Portovenere.com
-        </h3>
+<div className="grid gap-8 md:grid-cols-2">
 
-        <p className="mt-3 text-neutral-600">
-          Tourism platform focused on hospitality, experiences
-          and local discovery.
-        </p>
-      </div>
+  {/* PORTOVENERE */}
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
 
-      <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
-        <div className="aspect-[16/10] rounded-2xl bg-neutral-200"></div>
-
-        <h3 className="mt-6 text-2xl font-semibold">
-          Alo's Café
-        </h3>
-
-        <p className="mt-3 text-neutral-600">
-          Shopify e-commerce for motorcycle accessories,
-          gear and premium products.
-        </p>
-      </div>
-    </div>
-    
-<div className="mx-auto max-w-6xl">
-    <div className="mb-16">
-      
+    <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
+      <Image
+        src="/projects/portovenere.jpg"
+        alt="Portovenere"
+        fill
+        className="object-cover transition duration-700 group-hover:scale-105"
+      />
     </div>
 
-    <div className="grid gap-8 md:grid-cols-2">
-      <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
-       <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
-  <Image
-    src="/projects/portovenere.jpg"
-    alt="Portovenere"
-    fill
-    className="object-cover transition duration-700 hover:scale-105"
-  />
-</div>
+    <h3 className="mt-6 text-2xl font-semibold">
+      Portovenere.com
+    </h3>
 
-        <h3 className="mt-6 text-2xl font-semibold">
-          Portovenere.com
-        </h3>
-
-        <p className="mt-3 text-neutral-600">
-          Tourism platform focused on hospitality, experiences
-          and local discovery.
-        </p>
-      </div>
-
-      <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
-        <div className="aspect-[16/10] rounded-2xl bg-neutral-200"> <Image
-    src="/projects/portovenere.jpg"
-    alt="Portovenere"
-    fill
-    className="object-cover transition duration-700 hover:scale-105"
-  /></div>
-
-        <h3 className="mt-6 text-2xl font-semibold">
-          Alo's Café
-        </h3>
-
-        <p className="mt-3 text-neutral-600">
-          Shopify e-commerce for motorcycle accessories,
-          gear and premium products.
-        </p>
-      </div>
-    </div>
-    
-
-
-
-   
-   
+    <p className="mt-3 text-neutral-600">
+      Tourism platform focused on hospitality, experiences
+      and local discovery.
+    </p>
   </div>
 
+  {/* ALO'S CAFE */}
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
 
-   
-   
+    <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
+      <Image
+        src="/projects/alos.jpg"
+        alt="Alo's Café"
+        fill
+        className="object-cover transition duration-700 group-hover:scale-105"
+      />
+    </div>
+
+    <h3 className="mt-6 text-2xl font-semibold">
+      Alo's Café
+    </h3>
+
+    <p className="mt-3 text-neutral-600">
+      Shopify e-commerce for motorcycle accessories,
+      gear and premium products.
+    </p>
+  </div>
+
+</div>
+
+
   </div>
 </section>
+
     </main>
   );
 }
