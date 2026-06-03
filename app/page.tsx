@@ -18,6 +18,17 @@ export default function Home() {
           tourism and modern web experiences.
         </p>
 
+        <div className="mt-10">
+  <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full border border-neutral-300">
+    <Image
+      src="/foto.jpg"
+      alt="Stefano Borghini"
+      fill
+      className="object-cover"
+    />
+  </div>
+</div>
+
         <div className="mt-10 flex gap-4">
           <button className="rounded-full bg-black px-6 py-3 text-white transition hover:opacity-80">
             View Projects
