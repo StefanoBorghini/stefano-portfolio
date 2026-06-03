@@ -84,7 +84,7 @@ export default function Home() {
       Tourism platform focused on hospitality, experiences
       and local discovery.
     </p>
-
+  <button className="rounded-full bg-black px-6 py-3 text-white transition hover:opacity-80">
     <a
   href="https://www.portovenere.com"
   target="_blank"
@@ -92,6 +92,7 @@ export default function Home() {
 >
   Visit Website →
 </a>
+</button>
   </div>
 
   {/* PORTOVENERE EXPERIENCES */}
