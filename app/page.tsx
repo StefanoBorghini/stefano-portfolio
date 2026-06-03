@@ -9,7 +9,7 @@ export default function Home() {
           Prepared for Sintonia
         </p>
 
-        <h1 className="max-w-4xl text-5xl font-semibold leading-tight md:text-7xl">
+        <h1 className="max-w-4xl text-6xl tracking-tight font-semibold leading-tight md:text-8xl">
           Stefano Borghini
         </h1>
 
@@ -99,8 +99,8 @@ export default function Home() {
     </h3>
 
     <p className="mt-3 text-neutral-600">
-      Shopify e-commerce for motorcycle accessories,
-      gear and premium products.
+      Curated hospitality experiences platform focused
+on tourism, private experiences and luxury stays.
     </p>
   </div>
 
