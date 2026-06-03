@@ -1,3 +1,6 @@
+import Image from "next/image";
+
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f5f1ea] text-[#1a1a1a]">
@@ -40,7 +43,14 @@ export default function Home() {
 
     <div className="grid gap-8 md:grid-cols-2">
       <div className="overflow-hidden rounded-[32px] bg-white p-6 shadow-sm">
-        <div className="aspect-[16/10] rounded-2xl bg-neutral-200"></div>
+       <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
+  <Image
+    src="/projects/portovenere.jpg"
+    alt="Portovenere"
+    fill
+    className="object-cover transition duration-700 hover:scale-105"
+  />
+</div>
 
         <h3 className="mt-6 text-2xl font-semibold">
           Portovenere.com
