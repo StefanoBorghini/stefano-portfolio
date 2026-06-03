@@ -77,7 +77,9 @@ export default function Home() {
     </div>
     
 <div className="mx-auto max-w-6xl">
-    
+    <div className="mb-16">
+      
+    </div>
 
     <div className="grid gap-8 md:grid-cols-2">
       <div className="overflow-hidden rounded-[32px] bg-white p-6 shadow-sm">
