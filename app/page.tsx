@@ -84,7 +84,7 @@ export default function Home() {
       Tourism platform focused on hospitality, experiences
       and local discovery.
     </p>
-  <button className="rounded-full bg-black px-6 py-3 text-white transition hover:opacity-80">
+
     <a
   href="https://www.portovenere.com"
   target="_blank"
@@ -92,7 +92,6 @@ export default function Home() {
 >
   Visit Website →
 </a>
-</button>
   </div>
 
   {/* PORTOVENERE EXPERIENCES */}
@@ -115,6 +114,14 @@ export default function Home() {
       Curated hospitality experiences platform focused
 on tourism, private experiences and luxury stays.
     </p>
+
+     <a
+  href="https://experiences.portovenere.com"
+  target="_blank"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black"
+>
+  Visit Website →
+</a>
   </div>
 
    {/* ALO'S */}
@@ -137,6 +144,14 @@ on tourism, private experiences and luxury stays.
       Shopify e-commerce for motorcycle accessories,
       gear and premium products.
     </p>
+   <a
+  href="https://aloscafe-usa.com/"
+  target="_blank"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black"
+>
+  Visit Website →
+</a>
+    
   </div>
 
    {/* Lovely places to stay in Vernazza */}
@@ -159,6 +174,14 @@ on tourism, private experiences and luxury stays.
       Shopify e-commerce for motorcycle accessories,
       gear and premium products.
     </p>
+
+     <a
+  href="https://www.mariacapellini.com/"
+  target="_blank"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black"
+>
+  Visit Website →
+</a>
   </div>
 
 </div>
