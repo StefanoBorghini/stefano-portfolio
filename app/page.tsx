@@ -19,7 +19,7 @@ export default function LoginPage() {
     <main className="flex min-h-screen items-center justify-center bg-[#f5f1ea] px-6">
       <div className="w-full max-w-md text-center">
 
-        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-black-500">
+        <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-500">
           Private Preview
         </p>
 
@@ -27,9 +27,9 @@ export default function LoginPage() {
           Sintonia
         </h1>
 
-        <p className="mt-6 text-black-600">
+        <p className="mt-6 text-neutral-600">
           Selected works and digital experiences
-          prepared by Stefano Borghini.
+         <br></br> prepared by Stefano Borghini.
         </p>
 
         <div className="mt-10">
@@ -44,7 +44,7 @@ export default function LoginPage() {
 
         <button
           onClick={handleLogin}
-          className="mt-6 w-full rounded-full bg-black px-6 py-4 text-black transition hover:opacity-80"
+          className="mt-6 w-full rounded-full bg-black px-6 py-4 text-white transition hover:opacity-80"
         >
           Enter Preview
         </button>
