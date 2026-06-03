@@ -1,10 +1,15 @@
 import Image from "next/image";
 
+import { motion } from "framer-motion";
+
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#f5f1ea] text-[#1a1a1a]">
-      <section className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
+      <motion.section
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1 }} className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-500">
           Prepared for Sintonia
         </p>
@@ -48,7 +53,7 @@ export default function Home() {
 
           </a>
         </div>
-      </section>
+      </motion.section>
 
      <section id="projects" className="px-6 py-24">
   <div className="mx-auto max-w-6xl">
