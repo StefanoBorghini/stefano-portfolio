@@ -46,7 +46,7 @@ export default function Home() {
           
 </a> 
              <a className="rounded-full border border-black px-6 py-3 transition hover:bg-black hover:text-white"
-  href="mailto:tuaemail@gmail.com"
+  href="mailto:projects@stefanoborghinidesign.it"
 > 
       
   Contact
@@ -100,7 +100,7 @@ export default function Home() {
     <a
   href="https://www.portovenere.com"
   target="_blank"
-  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black" rel="noopener noreferrer"
 >
   Visit Website →
 </a>
@@ -130,7 +130,7 @@ on tourism, private experiences and luxury stays.
      <a
   href="https://experiences.portovenere.com"
   target="_blank"
-  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black" rel="noopener noreferrer"
 >
   Visit Website →
 </a>
@@ -159,7 +159,7 @@ on tourism, private experiences and luxury stays.
    <a
   href="https://aloscafe-usa.com/"
   target="_blank"
-  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black" rel="noopener noreferrer"
 >
   Visit Website →
 </a>
@@ -183,14 +183,14 @@ on tourism, private experiences and luxury stays.
     </h3>
 
     <p className="mt-3 text-neutral-600">
-      Shopify e-commerce for motorcycle accessories,
-      gear and premium products.
+      Tourism and boat experiences platform focused
+on local exploration, excursions and hospitality.
     </p>
 
      <a
   href="https://barcaioliportovenere.com/"
   target="_blank"
-  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black" rel="noopener noreferrer"
 >
   Visit Website →
 </a>
@@ -228,7 +228,7 @@ on tourism, private experiences and luxury stays.
 </motion.section>
 
 <footer className="px-6 pb-12 pt-24 text-center text-sm text-neutral-500">
-  Prepared exclusively for Sintonia — 2026
+  Prepared exclusively for Sintonia
 </footer>
 
     </main>
