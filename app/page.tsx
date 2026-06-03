@@ -23,7 +23,7 @@ export default function LoginPage() {
           Private Preview
         </p>
 
-        <h1 className="text-5xl font-semibold tracking-tight">
+        <h1 className="text-5xl font-semibold tracking-tight text-black">
           Sintonia
         </h1>
 
@@ -38,13 +38,13 @@ export default function LoginPage() {
             placeholder="Enter password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full rounded-full border border-neutral-300 bg-white px-6 py-4 text-center outline-none transition focus:border-black"
+            className="w-full cursor-text rounded-full border border-neutral-300 bg-white px-6 py-4 text-center text-black placeholder:text-neutral-400 outline-none transition focus:border-black"
           />
         </div>
 
         <button
           onClick={handleLogin}
-          className="mt-6 w-full rounded-full bg-black px-6 py-4 text-white transition hover:opacity-80"
+          className="mt-6 w-full cursor-pointer rounded-full bg-black px-6 py-4 text-white transition hover:opacity-80"
         >
           Enter Preview
         </button>
