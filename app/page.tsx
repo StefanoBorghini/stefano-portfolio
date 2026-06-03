@@ -13,13 +13,17 @@ export default function Home() {
           Stefano Borghini
         </h1>
 
+         <p className="mt-6 max-w-2xl text-lg text-neutral-600 md:text-xl">
+         Frontend Developer • UX • Hospitality • Performance
+        </p>
+
         <p className="mt-6 max-w-2xl text-lg text-neutral-600 md:text-xl">
           Web Developer & Digital Experiences focused on hospitality,
           tourism and modern web experiences.
         </p>
 
         <div className="mt-10">
-  <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full border border-neutral-300">
+  <div className="relative mx-auto h-32 w-32 overflow-hidden rounded-full border border-neutral-300 shadow-lg">
     <Image
       src="/projects/foto.jpg"
       alt="Stefano Borghini"
