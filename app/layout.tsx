@@ -26,7 +26,7 @@ export const metadata = {
     "Web Developer & Digital Experiences focused on hospitality, tourism and modern frontend experiences.",
 
   icons: {
-    icon: "/favicon.png",
+    icon: "/app/favicon.png",
   },
 };
 
