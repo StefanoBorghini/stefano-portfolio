@@ -35,16 +35,21 @@ export default function Home() {
 
         <div className="mt-10 flex gap-4">
           <button className="rounded-full bg-black px-6 py-3 text-white transition hover:opacity-80">
-            View Projects
+           <a href="#projects">View Projects</a> 
           </button>
 
           <button className="rounded-full border border-black px-6 py-3 transition hover:bg-black hover:text-white">
-            Contact
+           <a
+  href="mailto:tuaemail@gmail.com"
+  className="rounded-full border border-black px-6 py-3 transition hover:bg-black hover:text-white"
+>
+  Contact
+</a>
           </button>
         </div>
       </section>
 
-     <section className="px-6 py-24">
+     <section id="projects" className="px-6 py-24">
   <div className="mx-auto max-w-6xl">
 
 
