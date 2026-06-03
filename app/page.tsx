@@ -9,9 +9,10 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#f5f1ea] text-[#1a1a1a]">
       <motion.section
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1 }} className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
+   initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8 }} className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-500">
           Prepared for Sintonia
         </p>
@@ -58,9 +59,10 @@ export default function Home() {
       </motion.section>
 
      <motion.section
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1 }}  id="projects" className="px-6 py-24">
+   initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8 }}  id="projects" className="px-6 py-24">
   <div className="mx-auto max-w-6xl">
 
 
@@ -203,9 +205,10 @@ on local exploration, excursions and hospitality.
 </motion.section>
 
 <motion.section
-  initial={{ opacity: 0, y: 20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ duration: 1 }}  className="px-6 py-24">
+   initial={{ opacity: 0, y: 40 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  viewport={{ once: true }}
+  transition={{ duration: 0.8 }}  className="px-6 py-24">
   <div className="mx-auto max-w-4xl">
     
     <p className="mb-3 text-sm uppercase tracking-[0.3em] text-neutral-500">
