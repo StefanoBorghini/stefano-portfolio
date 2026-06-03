@@ -21,7 +21,7 @@ export default function Home() {
         <div className="mt-10">
   <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full border border-neutral-300">
     <Image
-      src="/foto.jpg"
+      src="/projects/foto.jpg"
       alt="Stefano Borghini"
       fill
       className="object-cover"
