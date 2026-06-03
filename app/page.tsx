@@ -25,6 +25,48 @@ export default function Home() {
           </button>
         </div>
       </section>
+
+      <section className="px-6 py-24">
+  <div className="mx-auto max-w-6xl">
+    <div className="mb-16">
+      <p className="mb-3 text-sm uppercase tracking-[0.3em] text-neutral-500">
+        Selected Works
+      </p>
+
+      <h2 className="text-4xl font-semibold md:text-5xl">
+        Projects & Digital Experiences
+      </h2>
+    </div>
+
+    <div className="grid gap-8 md:grid-cols-2">
+      <div className="overflow-hidden rounded-[32px] bg-white p-6 shadow-sm">
+        <div className="aspect-[16/10] rounded-2xl bg-neutral-200"></div>
+
+        <h3 className="mt-6 text-2xl font-semibold">
+          Portovenere.com
+        </h3>
+
+        <p className="mt-3 text-neutral-600">
+          Tourism platform focused on hospitality, experiences
+          and local discovery.
+        </p>
+      </div>
+
+      <div className="overflow-hidden rounded-[32px] bg-white p-6 shadow-sm">
+        <div className="aspect-[16/10] rounded-2xl bg-neutral-200"></div>
+
+        <h3 className="mt-6 text-2xl font-semibold">
+          Scaffè Moto
+        </h3>
+
+        <p className="mt-3 text-neutral-600">
+          Shopify e-commerce for motorcycle accessories,
+          gear and premium products.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
     </main>
   );
 }
