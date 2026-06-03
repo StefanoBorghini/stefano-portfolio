@@ -41,14 +41,18 @@ export default function LoginPage() {
             className="w-full cursor-text rounded-full border border-neutral-300 bg-white px-6 py-4 text-center text-black placeholder:text-neutral-400 outline-none transition focus:border-black"
           />
         </div>
-
+<form
+  onSubmit={(e) => {
+    e.preventDefault();
+    handleLogin();
+  }}>
         <button
           onClick={handleLogin}
           className="mt-6 w-full cursor-pointer rounded-full bg-black px-6 py-4 text-white transition hover:opacity-80"
         >
           Enter Preview
         </button>
-
+</form>
       </div>
     </main>
   );
