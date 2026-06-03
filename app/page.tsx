@@ -34,10 +34,10 @@ export default function Home() {
 </div>
 
         <div className="mt-10 flex gap-4">
-          <button className="rounded-full bg-black px-6 py-3 text-white transition hover:opacity-80">
-           <a href="#projects">View Projects</a> 
+          <a href="#projects"> <button className="rounded-full bg-black px-6 py-3 text-white transition hover:opacity-80">
+          View Projects
           </button>
-
+</a> 
           <button className="rounded-full border border-black px-6 py-3 transition hover:bg-black hover:text-white">
            <a
   href="mailto:tuaemail@gmail.com"
