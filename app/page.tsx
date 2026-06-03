@@ -84,6 +84,14 @@ export default function Home() {
       Tourism platform focused on hospitality, experiences
       and local discovery.
     </p>
+
+    <a
+  href="https://www.portovenere.com"
+  target="_blank"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black"
+>
+  Visit Website →
+</a>
   </div>
 
   {/* PORTOVENERE EXPERIENCES */}
