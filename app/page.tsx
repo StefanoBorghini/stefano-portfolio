@@ -89,6 +89,28 @@ export default function Home() {
     </p>
   </div>
 
+   {/* ALO'S */}
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
+
+    <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
+      <Image
+        src="/projects/alos.jpg"
+        alt="Alo's Café"
+        fill
+        className="object-cover transition duration-700 group-hover:scale-105"
+      />
+    </div>
+
+    <h3 className="mt-6 text-2xl font-semibold">
+      Portovenere Experiences
+    </h3>
+
+    <p className="mt-3 text-neutral-600">
+      Shopify e-commerce for motorcycle accessories,
+      gear and premium products.
+    </p>
+  </div>
+
 </div>
 
 
