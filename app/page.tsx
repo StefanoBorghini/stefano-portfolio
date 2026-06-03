@@ -103,7 +103,12 @@ export default function Home() {
       </div>
 
       <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
-        <div className="aspect-[16/10] rounded-2xl bg-neutral-200"></div>
+        <div className="aspect-[16/10] rounded-2xl bg-neutral-200"> <Image
+    src="/projects/portovenere.jpg"
+    alt="Portovenere"
+    fill
+    className="object-cover transition duration-700 hover:scale-105"
+  /></div>
 
         <h3 className="mt-6 text-2xl font-semibold">
           Alo's Café
