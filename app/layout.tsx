@@ -20,15 +20,16 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Stefano Borghini — Selected Works for Sintonia",
   description:
     "Web Developer & Digital Experiences focused on hospitality, tourism and modern frontend experiences.",
 
-    icons: {
-  icon: "/favicon.png",
-},
+  icons: {
+    icon: "/favicon.png",
+  },
 };
+
 
 export default function RootLayout({
   children,
