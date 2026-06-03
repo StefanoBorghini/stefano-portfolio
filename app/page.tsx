@@ -79,7 +79,7 @@ export default function Home() {
 <div className="grid gap-8 md:grid-cols-2">
 
   {/* PORTOVENERE */}
-  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-xl">
 
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
       <Image
@@ -109,7 +109,7 @@ export default function Home() {
   </div>
 
   {/* PORTOVENERE EXPERIENCES */}
-  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-xl">
 
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
       <Image
@@ -139,7 +139,7 @@ on tourism, private experiences and luxury stays.
   </div>
 
    {/* ALO'S */}
-  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-xl">
 
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
       <Image
@@ -169,7 +169,7 @@ on tourism, private experiences and luxury stays.
   </div>
 
    {/* barcaioli portovenere */}
-  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-xl">
 
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
       <Image
