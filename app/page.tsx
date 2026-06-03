@@ -38,13 +38,15 @@ export default function Home() {
           View Projects
           </button>
 </a> 
-          <button className="rounded-full border border-black px-6 py-3 transition hover:bg-black hover:text-white">
-           <a
+             <a
   href="mailto:tuaemail@gmail.com"
->
+>  <button className="rounded-full border border-black px-6 py-3 transition hover:bg-black hover:text-white">
+      
   Contact
-</a>
+
           </button>
+
+          </a>
         </div>
       </section>
 
@@ -154,20 +156,20 @@ on tourism, private experiences and luxury stays.
     
   </div>
 
-   {/* Lovely places to stay in Vernazza */}
+   {/* barcaioli portovenere */}
   <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-1 hover:shadow-xl">
 
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
       <Image
-        src="/projects/maria.jpg"
-        alt="Alo's Café"
+        src="/projects/barcaioli.jpg"
+        alt="barcaioli portovenere"
         fill
         className="object-cover transition duration-700 group-hover:scale-105"
       />
     </div>
 
     <h3 className="mt-6 text-2xl font-semibold">
-     Lovely places to stay in Vernazza
+     Cooperativa Barcaioli Portovenere
     </h3>
 
     <p className="mt-3 text-neutral-600">
@@ -176,7 +178,7 @@ on tourism, private experiences and luxury stays.
     </p>
 
      <a
-  href="https://www.mariacapellini.com/"
+  href="https://barcaioliportovenere.com/"
   target="_blank"
   className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black"
 >
