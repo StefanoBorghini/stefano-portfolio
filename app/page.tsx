@@ -41,7 +41,6 @@ export default function Home() {
           <button className="rounded-full border border-black px-6 py-3 transition hover:bg-black hover:text-white">
            <a
   href="mailto:tuaemail@gmail.com"
-  className="rounded-full border border-black px-6 py-3 transition hover:bg-black hover:text-white"
 >
   Contact
 </a>
