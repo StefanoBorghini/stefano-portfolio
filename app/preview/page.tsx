@@ -14,7 +14,7 @@ export default function Home() {
   viewport={{ once: true }}
   transition={{ duration: 0.8 }} className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-500">
-          Prepared for Sintonia
+          Prepared for B.F.M. S.r.l.
         </p>
 
         <h1 className="max-w-4xl text-6xl tracking-tight font-semibold leading-tight md:text-8xl">
@@ -22,13 +22,10 @@ export default function Home() {
         </h1>
 
          <p className="mt-6 max-w-2xl text-lg text-neutral-600 md:text-xl">
-         Frontend Developer • UX • Hospitality • Performance
+         Frontend Developer • UX • Graphic • Performance
         </p>
 
-        <p className="mt-6 max-w-2xl text-lg text-neutral-600 md:text-xl">
-          Web Developer & Digital Experiences focused on hospitality,
-          tourism and modern web experiences.
-        </p>
+        
 
         <div className="mt-10">
   <div className="relative mx-auto h-32 w-32 overflow-hidden rounded-full border border-neutral-300 shadow-lg">
@@ -231,7 +228,7 @@ on local exploration, excursions and hospitality.
 </motion.section>
 
 <footer className="px-6 pb-12 pt-24 text-center text-sm text-neutral-500">
-  Prepared exclusively for Sintonia
+  Prepared exclusively for B.F.M. S.r.l.
 </footer>
 
     </main>
