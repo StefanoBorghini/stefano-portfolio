@@ -14,7 +14,7 @@ export default function Home() {
   viewport={{ once: true }}
   transition={{ duration: 0.8 }} className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
         <p className="mb-4 text-sm uppercase tracking-[0.3em] text-neutral-500">
-          Prepared for B.F.M. S.r.l.
+          Portfolio
         </p>
 
         <h1 className="max-w-4xl text-6xl tracking-tight font-semibold leading-tight md:text-8xl">
@@ -383,7 +383,7 @@ donations and community services.
 </motion.section>
 
 <footer className="px-6 pb-12 pt-24 text-center text-sm text-neutral-500">
-  Prepared exclusively for B.F.M. S.r.l.
+  Prepared exclusively by Stefano Borghini
 </footer>
 
     </main>

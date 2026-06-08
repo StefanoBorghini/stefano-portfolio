@@ -24,7 +24,7 @@ export default function LoginPage() {
         </p>
 
         <h1 className="text-5xl font-semibold tracking-tight text-black">
-          B.F.M. S.r.l
+          Portfolio
         </h1>
 
         <p className="mt-6 text-neutral-600">
