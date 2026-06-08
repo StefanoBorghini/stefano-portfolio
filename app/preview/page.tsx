@@ -195,6 +195,156 @@ on local exploration, excursions and hospitality.
 </a>
   </div>
 
+    {/* schiffini */}
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+    <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
+      <Image
+        src="/projects/schiffini.jpg"
+        alt="barcaioli portovenere"
+        fill
+        className="object-cover transition duration-700 group-hover:scale-105"
+      />
+    </div>
+
+    <h3 className="mt-6 text-2xl font-semibold">
+     Architetto Andrea Schiffini
+    </h3>
+
+    <p className="mt-3 text-neutral-600">
+      Tourism and boat experiences platform focused
+on local exploration, excursions and hospitality.
+    </p>
+
+     <a
+  href="https://schiffiniarchitetto.it/"
+  target="_blank"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black" rel="noopener noreferrer"
+>
+  Visit Website →
+</a>
+  </div>
+
+    {/* maria cappellini */}
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+    <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
+      <Image
+        src="/projects/maria.jpg"
+        alt="barcaioli portovenere"
+        fill
+        className="object-cover transition duration-700 group-hover:scale-105"
+      />
+    </div>
+
+    <h3 className="mt-6 text-2xl font-semibold">
+     Lovely places to stay in Vernazza
+    </h3>
+
+    <p className="mt-3 text-neutral-600">
+      Tourism and boat experiences platform focused
+on local exploration, excursions and hospitality.
+    </p>
+
+     <a
+  href="https://www.mariacapellini.com/"
+  target="_blank"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black" rel="noopener noreferrer"
+>
+  Visit Website →
+</a>
+  </div>
+
+
+    {/* briselli*/}
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+    <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
+      <Image
+        src="/projects/briselli.jpg"
+        alt="barcaioli portovenere"
+        fill
+        className="object-cover transition duration-700 group-hover:scale-105"
+      />
+    </div>
+
+    <h3 className="mt-6 text-2xl font-semibold">
+     Lovely places to stay in Vernazza
+    </h3>
+
+    <p className="mt-3 text-neutral-600">
+      Tourism and boat experiences platform focused
+on local exploration, excursions and hospitality.
+    </p>
+
+     <a
+  href="https://www.andreabriselli.com/"
+  target="_blank"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black" rel="noopener noreferrer"
+>
+  Visit Website →
+</a>
+  </div>
+
+{/* https://salimbene.store/*/}
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+    <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
+      <Image
+        src="/projects/carlo.jpg"
+        alt="barcaioli portovenere"
+        fill
+        className="object-cover transition duration-700 group-hover:scale-105"
+      />
+    </div>
+
+    <h3 className="mt-6 text-2xl font-semibold">
+     Lovely places to stay in Vernazza
+    </h3>
+
+    <p className="mt-3 text-neutral-600">
+      Tourism and boat experiences platform focused
+on local exploration, excursions and hospitality.
+    </p>
+
+     <a
+  href="https://salimbene.store/"
+  target="_blank"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black" rel="noopener noreferrer"
+>
+  Visit Website →
+</a>
+  </div>
+
+{/* https://www.crilaspezia.it//*/}
+  <div className="group overflow-hidden rounded-[32px] bg-white p-6 shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-xl">
+
+    <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
+      <Image
+        src="/projects/cri.jpg"
+        alt="barcaioli portovenere"
+        fill
+        className="object-cover transition duration-700 group-hover:scale-105"
+      />
+    </div>
+
+    <h3 className="mt-6 text-2xl font-semibold">
+     Lovely places to stay in Vernazza
+    </h3>
+
+    <p className="mt-3 text-neutral-600">
+      Tourism and boat experiences platform focused
+on local exploration, excursions and hospitality.
+    </p>
+
+     <a
+  href="https://www.crilaspezia.it/"
+  target="_blank"
+  className="mt-4 inline-flex text-sm text-neutral-500 transition hover:text-black" rel="noopener noreferrer"
+>
+  Visit Website →
+</a>
+  </div>
 </div>
 
 
