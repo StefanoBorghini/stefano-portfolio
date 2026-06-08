@@ -23,9 +23,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Stefano Borghini — Selected Works for Sintonia",
+  title: "Stefano Borghini | Portfolio",
   description:
-    "Web Developer & Digital Experiences focused on hospitality, tourism and modern frontend experiences.",
+    "Portfolio di Stefano Borghini. Web design, digital experiences, hospitality, e-commerce e progetti web.",
 
     
 };

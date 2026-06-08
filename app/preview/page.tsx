@@ -201,7 +201,7 @@ on local exploration, excursions and hospitality.
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
       <Image
         src="/projects/schiffini.jpg"
-        alt="barcaioli portovenere"
+        alt="Architetto"
         fill
         className="object-cover transition duration-700 group-hover:scale-105"
       />
@@ -212,8 +212,9 @@ on local exploration, excursions and hospitality.
     </h3>
 
     <p className="mt-3 text-neutral-600">
-      Tourism and boat experiences platform focused
-on local exploration, excursions and hospitality.
+      Architecture studio website developed with Bootstrap
+and integrated into WordPress, featuring a clean
+editorial layout and custom content management.
     </p>
 
      <a
@@ -231,7 +232,7 @@ on local exploration, excursions and hospitality.
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
       <Image
         src="/projects/maria.jpg"
-        alt="barcaioli portovenere"
+        alt="maria"
         fill
         className="object-cover transition duration-700 group-hover:scale-105"
       />
@@ -242,8 +243,9 @@ on local exploration, excursions and hospitality.
     </h3>
 
     <p className="mt-3 text-neutral-600">
-      Tourism and boat experiences platform focused
-on local exploration, excursions and hospitality.
+     Hospitality platform focused on accommodations,
+travel inspiration and tourism experiences in
+the Cinque Terre area.
     </p>
 
      <a
@@ -262,7 +264,7 @@ on local exploration, excursions and hospitality.
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
       <Image
         src="/projects/briselli.jpg"
-        alt="barcaioli portovenere"
+        alt="briselli"
         fill
         className="object-cover transition duration-700 group-hover:scale-105"
       />
@@ -273,8 +275,9 @@ on local exploration, excursions and hospitality.
     </h3>
 
     <p className="mt-3 text-neutral-600">
-      Tourism and boat experiences platform focused
-on local exploration, excursions and hospitality.
+     Professional personal website designed to promote
+language courses, educational services and online
+student acquisition.
     </p>
 
      <a
@@ -292,7 +295,7 @@ on local exploration, excursions and hospitality.
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
       <Image
         src="/projects/carlo.jpg"
-        alt="barcaioli portovenere"
+        alt="salimbene"
         fill
         className="object-cover transition duration-700 group-hover:scale-105"
       />
@@ -303,8 +306,9 @@ on local exploration, excursions and hospitality.
     </h3>
 
     <p className="mt-3 text-neutral-600">
-      Tourism and boat experiences platform focused
-on local exploration, excursions and hospitality.
+     PrestaShop e-commerce platform for a historic Italian
+coffee brand, focused on direct online sales of
+artisan coffee products.
     </p>
 
      <a
@@ -322,7 +326,7 @@ on local exploration, excursions and hospitality.
     <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
       <Image
         src="/projects/cri.jpg"
-        alt="barcaioli portovenere"
+        alt="cri la spezia"
         fill
         className="object-cover transition duration-700 group-hover:scale-105"
       />
@@ -333,8 +337,9 @@ on local exploration, excursions and hospitality.
     </h3>
 
     <p className="mt-3 text-neutral-600">
-      Tourism and boat experiences platform focused
-on local exploration, excursions and hospitality.
+     Institutional website developed for the local branch
+of the Italian Red Cross, focused on volunteering,
+donations and community services.
     </p>
 
      <a
