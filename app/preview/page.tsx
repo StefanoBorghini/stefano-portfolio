@@ -269,7 +269,7 @@ on local exploration, excursions and hospitality.
     </div>
 
     <h3 className="mt-6 text-2xl font-semibold">
-     Lovely places to stay in Vernazza
+     Andrea Briselli docente di lingue
     </h3>
 
     <p className="mt-3 text-neutral-600">
@@ -299,7 +299,7 @@ on local exploration, excursions and hospitality.
     </div>
 
     <h3 className="mt-6 text-2xl font-semibold">
-     Lovely places to stay in Vernazza
+     Caffè Salimbene - Prodotto a Napoli dal 1933
     </h3>
 
     <p className="mt-3 text-neutral-600">
@@ -329,7 +329,7 @@ on local exploration, excursions and hospitality.
     </div>
 
     <h3 className="mt-6 text-2xl font-semibold">
-     Lovely places to stay in Vernazza
+    Croce Rossa Italiana - La Spezia
     </h3>
 
     <p className="mt-3 text-neutral-600">
